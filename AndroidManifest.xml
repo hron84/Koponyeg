@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="me.hron.koponyeg"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true" android:testOnly="false" android:allowBackup="true" android:enabled="true" android:permission="android.permission.INTERNET" android:description="@string/description">
+        <activity android:name=".Koponyeg"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="Preferences" android:label="@string/settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <!--receiver android:name="KoponyegWidget" android:label="@string/app_name" android:icon="@drawable/icon">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget" />
+        </receiver-->
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest> 

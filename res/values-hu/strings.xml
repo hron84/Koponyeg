@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_quit">Kilépés</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="settings">Beállítások</string>
+    
+    <string name="app_name">Köpönyeg</string>
+<string name="description">Eső előtt köpönyeg!</string>
+<string name="town">Város</string>
+</resources>

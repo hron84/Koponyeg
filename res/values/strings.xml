@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_settings">Settings</string>
+    <string name="settings">Settings</string>
+    
+    <string name="app_name">Köpönyeg</string>
+<string name="description">Eső előtt köpönyeg!</string>
+<string name="town">Town</string>
+</resources>
