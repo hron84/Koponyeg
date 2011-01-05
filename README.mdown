@@ -1,0 +1,16 @@
+# Koponyeg.hu
+
+This application provides a wrapper for koponyeg.hu weather service. 
+The site itself provides a web interface for phone/PDA users, an this
+application just wraps it for Android.
+
+## Contact
+
+If you found a bug, or have an idea what you want to share with me,
+please send me over Facebook, Twitter to hron84 user, or via e-mail to
+hrgyster@gmail.com
+
+## License
+
+This application and code licensed under the terms of CreativeCommons
+[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/) license. 
